@@ -1,0 +1,25 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang-22",
+      "-v",
+      "-Iinclude",
+      "-std=c++23",
+      "-Wall",
+      "-Werror",
+      "-Wimplicit-fallthrough",
+      "-Wno-unused",
+      "-fdebug-prefix-map=/Users/llewie/code/templates/cpptemplate=.",
+      "-fno-show-column",
+      "-fno-diagnostics-show-option",
+      "-fdiagnostics-fixit-info",
+      "-c",
+      "-o",
+      "build/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/Users/llewie/code/templates/cpptemplate",
+    "file": "/Users/llewie/code/templates/cpptemplate/src/main.cpp",
+    "output": "/Users/llewie/code/templates/cpptemplate/build/main.o"
+  }
+]
